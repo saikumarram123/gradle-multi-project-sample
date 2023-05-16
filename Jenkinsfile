@@ -1,4 +1,4 @@
 @Library("test-library") _
 script{
-mimicPipeline(app: 'app', base: 'base', common: 'common')
+mimicPipeline123.groovy(app: 'app', base: 'base', common: 'common')
 }

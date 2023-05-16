@@ -1,14 +1,6 @@
-pipeline {
-    agent any
-
-    stages {
-        stage ('Compile Stage') {
-	   steps {	
-	    echo 'Clean previous build output'
-	    sh './gradlew clean'
-	   }	   
-        }
-
-    }
-
+@Library("test-library") _
+mimicPipeline {
+  app = 'app'
+  base = 'base'
+  common = 'common'
 }

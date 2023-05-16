@@ -1,6 +1,4 @@
 @Library("test-library") _
-mimicPipeline {
-  app = 'app'
-  base = 'base'
-  common = 'common'
+script{
+mimicPipeline(app: 'app', base: 'base', common: 'common')
 }

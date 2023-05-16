@@ -1,4 +1,4 @@
 @Library("test-library") _
 script{
-monoRepoPipeline(app: 'app', base: 'base', common: 'common')
+helloWorldSimple(app: 'app', base: 'base', common: 'common')
 }
